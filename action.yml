@@ -16,7 +16,8 @@ inputs:
   model_url:
     description: 'URL to download the GGUF model'
     # default: 'https://huggingface.co/lmstudio-community/aya-expanse-8b-GGUF/resolve/main/aya-expanse-8b-Q4_K_M.gguf'
-    default: 'https://huggingface.co/lmstudio-community/Qwen3-14B-GGUF/resolve/main/Qwen3-14B-Q4_K_M.gguf'
+    default: 'https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q5_K_S.gguf'
+    
     required: false
   model_cache_path:
     description: 'Path to cache the model (internal)'
